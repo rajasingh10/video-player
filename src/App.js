@@ -192,6 +192,7 @@ function App() {
     if (count > 3) {
       controlsRef.current.style.visibility = "hidden";
       count = 0;
+
     }
     if (controlsRef.current.style.visibility == "visible") {
       count += 1;
